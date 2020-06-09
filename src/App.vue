@@ -37,7 +37,7 @@ export default {
   methods: {
     async getEmployees() {
       try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        const response = await fetch('https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users')
         const data = await response.json()
         this.employees = data
       } catch (error) {

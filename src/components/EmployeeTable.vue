@@ -4,7 +4,7 @@
       v-if="employees.length < 1"
       class="empty-table"
     >
-      No employees
+     -  No employees  - 
     </p>
     <table v-else>
       <thead>
